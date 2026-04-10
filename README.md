@@ -88,9 +88,9 @@ docker-compose up --build
 
 | Service   | URL                          |
 |-----------|------------------------------|
-| Frontend  | http://localhost:3000        |
-| API       | http://localhost:5000/api    |
-| Postgres  | localhost:5432               |
+| Frontend  | https://basic-task-manager-app-1.onrender.com        |
+| API       | https://basic-task-manager-app-grz3.onrender.com/api   |
+| Postgres  | Hosted on Neon            |
 
 To stop: `docker-compose down`  
 To wipe the DB volume: `docker-compose down -v`
