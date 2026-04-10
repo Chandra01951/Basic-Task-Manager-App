@@ -8,8 +8,8 @@ A production-grade Task Manager built with **React**, **Node.js/Express**, and *
 
 | Service  | URL |
 |----------|-----|
-| Frontend | `https://your-app.onrender.com` |
-| Backend  | `https://your-api.onrender.com` |
+| Frontend | `https://basic-task-manager-app-1.onrender.com` |
+| Backend  | `https://basic-task-manager-app-grz3.onrender.com` |
 
 ---
 

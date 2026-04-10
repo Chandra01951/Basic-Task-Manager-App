@@ -44,7 +44,7 @@ export default function App() {
 
   // Reset to page 1 whenever filter changes
   useEffect(() => { setPage(1); }, [statusFilter]);
-
+  //create task
   async function handleCreate(payload) {
     setFL(true);
     try {
@@ -58,7 +58,7 @@ export default function App() {
       setFL(false);
     }
   }
-
+  //update tasks
   async function handleStatusChange(id, newStatus) {
     // Optimistic update — apply immediately, rollback on error
     setTasks((prev) =>
@@ -76,7 +76,7 @@ export default function App() {
       loadTasks(); // rollback by re-fetching
     }
   }
-
+  //delete taks
   async function handleDelete(id) {
     // Optimistic removal
     setTasks((prev) => prev.filter((t) => t.id !== id));
