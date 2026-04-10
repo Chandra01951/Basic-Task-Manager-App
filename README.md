@@ -236,4 +236,3 @@ npm start                   # http://localhost:3000
 1. Push to a public GitHub repository.
 2. **Backend** — Create a new *Web Service* on Render pointing to `/server`. Set env vars from `.env.example`. Add a *PostgreSQL* database and paste the internal connection string into `DATABASE_URL`.
 3. **Frontend** — Create a new *Static Site* on Render pointing to `/client`. Set build command `npm run build`, publish directory `build`, and set `REACT_APP_API_URL` to the backend service URL.
-4. Update the *Live URLs* section at the top of this README.
